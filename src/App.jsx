@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 
 function App() {
   const [pos, setPos] = useState(0);
@@ -28,7 +28,7 @@ function App() {
             setPos((prv) => prv - 90);
           }}
         >
-          <FaArrowLeft />
+          <FaArrowAltCircleLeft />
         </button>
         <button
           id="next"
@@ -36,7 +36,7 @@ function App() {
             setPos((prv) => prv + 90);
           }}
         >
-          <FaArrowRight />
+          <FaArrowAltCircleRight />
         </button>
       </div>
     </div>
